@@ -1,0 +1,283 @@
+{
+  "excellent_talent_naturalization": {
+    "title": "Quốc tịch Hàn Quốc - Nhân tài ưu tú",
+    "subtitle": "우수인재 특별귀화",
+    "description": "Checklist cá nhân để chuẩn bị hồ sơ xin nhập quốc tịch Hàn Quốc theo diện nhân tài ưu tú.",
+    "categories": [
+      {
+        "name": "1. Hồ sơ bắt buộc",
+        "items": [
+          {
+            "id": "application_form",
+            "label": "Đơn xin nhập quốc tịch - 귀화허가신청서",
+            "note": "Dùng mẫu 별지 제2호. Điền đầy đủ thông tin và dán ảnh 3.5 × 4.5 cm.",
+            "required": true
+          },
+          {
+            "id": "passport",
+            "label": "Hộ chiếu bản gốc và bản sao",
+            "note": "여권 원본과 사본.",
+            "required": true
+          },
+          {
+            "id": "arc",
+            "label": "Thẻ người nước ngoài bản gốc và bản sao hai mặt",
+            "note": "외국인등록증 원본과 앞·뒷면 사본 1부.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "2. Hồ sơ chứng minh nhân tài ưu tú",
+        "items": [
+          {
+            "id": "talent_statement",
+            "label": "Bản thuyết minh chi tiết hồ sơ nhân tài ưu tú",
+            "note": "우수인재 국적신청 상세기술서 - 별지 제1호 서식.",
+            "required": true
+          },
+          {
+            "id": "talent_statement_evidence",
+            "label": "Tài liệu chứng minh toàn bộ nội dung trong bản thuyết minh",
+            "note": "Ví dụ: bằng cấp, giấy xác nhận công tác, bài báo, patent, award, research record...",
+            "required": true
+          },
+          {
+            "id": "bonus_score_sheet",
+            "label": "Bảng điểm cộng theo từng hạng mục",
+            "note": "우수인재 가점 항목별 점수표 - 별지 제2호 서식. Chỉ nộp nếu có mục áp dụng.",
+            "required": false
+          },
+          {
+            "id": "bonus_score_evidence",
+            "label": "Tài liệu chứng minh các điểm cộng đã khai",
+            "note": "Nộp kèm các chứng từ tương ứng với từng mục điểm cộng.",
+            "required": false
+          },
+          {
+            "id": "recommendation",
+            "label": "Thư giới thiệu nhân tài ưu tú",
+            "note": "우수인재 추천서 - 별지 제3호 서식. Đặc biệt quan trọng khi sử dụng cơ chế điểm cộng.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "3. Hồ sơ học thuật và nghiên cứu",
+        "items": [
+          {
+            "id": "degree_certificate",
+            "label": "Bằng tiến sĩ / giấy chứng nhận học vị",
+            "note": "Chuẩn bị bản chính hoặc giấy xác nhận phù hợp.",
+            "required": true
+          },
+          {
+            "id": "graduation_certificate",
+            "label": "Giấy chứng nhận tốt nghiệp",
+            "note": "졸업증명서 hoặc 학위증명서.",
+            "required": true
+          },
+          {
+            "id": "transcript",
+            "label": "Bảng điểm",
+            "note": "Có thể dùng để bổ trợ hồ sơ học lực nếu cần.",
+            "required": false
+          },
+          {
+            "id": "employment_certificate",
+            "label": "Giấy xác nhận công tác / nghiên cứu",
+            "note": "재직증명서 hoặc 경력증명서.",
+            "required": true
+          },
+          {
+            "id": "publication_list",
+            "label": "Danh sách bài báo khoa học",
+            "note": "Ưu tiên liệt kê rõ bài SCI/SCIE, tác giả, năm, journal.",
+            "required": true
+          },
+          {
+            "id": "publication_evidence",
+            "label": "Tài liệu chứng minh bài báo",
+            "note": "Trang đầu bài báo, DOI, journal information hoặc publication record.",
+            "required": true
+          },
+          {
+            "id": "patent_evidence",
+            "label": "Bằng sáng chế / patent",
+            "note": "Nếu có, chuẩn bị giấy đăng ký hoặc chứng nhận quyền sở hữu trí tuệ.",
+            "required": false
+          },
+          {
+            "id": "award_evidence",
+            "label": "Giải thưởng / bằng khen / commendation",
+            "note": "Chuẩn bị giấy chứng nhận và giải thích ý nghĩa của giải thưởng.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "4. Hồ sơ điểm cộng",
+        "items": [
+          {
+            "id": "education_score",
+            "label": "Điểm học lực 국내·외 학력",
+            "note": "Bậc tiến sĩ thuộc khoa học/kỹ thuật có thể được tính điểm theo bảng đánh giá.",
+            "required": false
+          },
+          {
+            "id": "legal_stay_score",
+            "label": "Điểm cư trú hợp pháp dài hạn",
+            "note": "장기간 합법 체류. Có thể cần 출입국사실증명서 để tính thời gian.",
+            "required": false
+          },
+          {
+            "id": "volunteer_score",
+            "label": "Điểm hoạt động tình nguyện",
+            "note": "사회봉사. Hồ sơ chỉ được tính theo điều kiện trong tài liệu.",
+            "required": false
+          },
+          {
+            "id": "donation_score",
+            "label": "Điểm đóng góp / quyên góp",
+            "note": "사회기여·기부 nếu có.",
+            "required": false
+          },
+          {
+            "id": "recommendation_score",
+            "label": "Điểm thư giới thiệu",
+            "note": "추천서, phụ thuộc cơ quan/người có thẩm quyền giới thiệu.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "5. Hồ sơ gia đình và đăng ký quốc tịch",
+        "items": [
+          {
+            "id": "family_notification_form",
+            "label": "Tờ khai thông báo quan hệ gia đình viết tay",
+            "note": "가족관계 통보 관련 서류.",
+            "required": true
+          },
+          {
+            "id": "family_relationship_docs",
+            "label": "Giấy tờ chứng minh quan hệ gia đình",
+            "note": "Ví dụ: giấy khai sinh, giấy kết hôn, giấy chứng nhận quan hệ gia đình từ nước sở tại.",
+            "required": true
+          },
+          {
+            "id": "parents_docs",
+            "label": "Giấy tờ của cha mẹ",
+            "note": "Chuẩn bị nếu cần để chứng minh quan hệ cha mẹ.",
+            "required": false
+          },
+          {
+            "id": "spouse_docs",
+            "label": "Giấy tờ của vợ/chồng",
+            "note": "Chuẩn bị nếu có vợ/chồng.",
+            "required": false
+          },
+          {
+            "id": "children_docs",
+            "label": "Giấy tờ của con",
+            "note": "Chuẩn bị nếu có con.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "6. Dịch thuật và xác nhận hồ sơ",
+        "items": [
+          {
+            "id": "translation",
+            "label": "Bản dịch tiếng Hàn hoặc tiếng Anh",
+            "note": "Tài liệu do cơ quan nước ngoài cấp cần kèm bản dịch.",
+            "required": true
+          },
+          {
+            "id": "translator_confirmation",
+            "label": "Giấy xác nhận người dịch",
+            "note": "번역자 확인서 nếu áp dụng.",
+            "required": false
+          },
+          {
+            "id": "apostille",
+            "label": "Apostille hoặc xác nhận lãnh sự nếu được yêu cầu",
+            "note": "Có thể được yêu cầu để xác minh tính xác thực của tài liệu.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "7. Trước khi nộp hồ sơ",
+        "items": [
+          {
+            "id": "appointment",
+            "label": "Đặt lịch 방문예약 trên Hi Korea",
+            "note": "Cần đặt lịch trước khi đến cơ quan xuất nhập cảnh.",
+            "required": true
+          },
+          {
+            "id": "jurisdiction",
+            "label": "Kiểm tra cơ quan xuất nhập cảnh có thẩm quyền theo nơi cư trú",
+            "note": "Nộp trực tiếp tại 국적과 của cơ quan quản lý nơi cư trú.",
+            "required": true
+          },
+          {
+            "id": "final_document_check",
+            "label": "Kiểm tra bản gốc / bản sao / bản dịch / xác nhận",
+            "note": "Đối chiếu lần cuối trước khi nộp.",
+            "required": true
+          },
+          {
+            "id": "extra_documents",
+            "label": "Chuẩn bị khả năng bị yêu cầu bổ sung hồ sơ",
+            "note": "Cơ quan xét duyệt có thể yêu cầu thêm tài liệu.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "8. Sau khi nộp",
+        "items": [
+          {
+            "id": "stay_extension",
+            "label": "Tiếp tục quản lý thời hạn visa / lưu trú",
+            "note": "Trong thời gian xét quốc tịch vẫn phải đảm bảo thời hạn lưu trú hợp pháp.",
+            "required": true
+          },
+          {
+            "id": "address_change",
+            "label": "Báo thay đổi địa chỉ nếu có",
+            "note": "Nếu thay đổi nơi cư trú sau khi nộp hồ sơ.",
+            "required": false
+          },
+          {
+            "id": "phone_change",
+            "label": "Báo thay đổi số điện thoại nếu có",
+            "note": "Có thể liên hệ 1345 nếu cần cập nhật.",
+            "required": false
+          },
+          {
+            "id": "interview",
+            "label": "Chuẩn bị phỏng vấn nhập quốc tịch",
+            "note": "귀화 면접심사.",
+            "required": true
+          },
+          {
+            "id": "certificate_ceremony",
+            "label": "Chuẩn bị 국민선서 và nhận 국적증서",
+            "note": "Sau khi được chấp thuận.",
+            "required": true
+          },
+          {
+            "id": "foreign_nationality_pledge",
+            "label": "Thực hiện 외국국적불행사서약 nếu thuộc trường hợp được phép",
+            "note": "Liên quan việc duy trì song tịch theo diện nhân tài ưu tú.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  }
+}
